@@ -1,0 +1,146 @@
+ .header{
+  height:55px;
+  display:flex;
+flex-direction:row;
+justify-content:space-between;
+position:fixed;
+background-color:white;
+margin-bottom:20px;
+top:0;
+left:0;
+right:0;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:rgb(235, 228, 228);
+z-index:1;
+ }
+
+ .left-section{
+  display:flex;
+  align-items:center;
+ }
+
+ .middle-section{
+  flex:1;
+  margin-left:70px;
+  margin-right:35px;
+  max-width:450px;
+  display:flex;
+  align-items:center;
+ }
+ .search-button{
+  height:41px;
+  width:60px;
+  border-width:1px;
+  border-style:solid;
+  border-color:gainsboro;
+  margin-right:10px;
+  border-radius:2px;
+ }
+ .search-button,
+ .voice-button,
+ .upload-container,
+ .youtube-app-container,
+ .notif-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:relative;
+  cursor:pointer;
+ }
+
+ .search-button div,
+ .voice-button div,
+ .upload-container div,
+ .youtube-app-container div,
+ .notif-container div{
+  position:absolute;
+  background-color:gray;
+  color:white;
+  padding:5px;
+  border-radius:2px;
+  font-size:12px;
+  bottom:-33px;
+  opacity:0;
+  transition:opacity 0.15s;
+  pointer-events:none;
+  white-space:nowrap;
+ }
+ .search-button:hover div,
+ .voice-button:hover div,
+ .upload-container:hover div,
+ .youtube-app-container:hover div,
+ .notif-container:hover div{
+opacity:1;
+ }
+ .voice-button{
+  height:40px;
+  width:40px;
+  border-radius:20px;
+  border:none; 
+  background-color:rgb(244, 243, 243);
+ }
+ .voice-icon,
+ .search-icon{
+  height:25px;
+ }
+ .search-bar{
+  flex:1;
+  height:37px;
+  padding-left:7px;
+  font-size:14px;
+  border:1px solid rgb(243, 243, 243) ;
+  border-radius:2px;
+ 
+  box-shadow:inset 1px 2px 3px rgb(0,0,0,0.05);
+  width:0;
+  margin-right:-3px;
+  
+ }
+ .search-bar::placeholder{
+  font-size:14px;
+ }
+
+ .right-section{
+  width:170px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-right:20px;
+  flex-shrink:0;
+ }
+ .ham-logo{
+  height:25px;
+  margin-left:25px;
+  margin-right:20px;
+
+ }
+ .youtube-logo{
+  height:20px;
+ }
+ .upload-icon,
+ .app-icon,
+ .notif-icon,
+ .chan-icon{
+  height:24px;
+ }
+ .chan-icon{
+  border-radius:16px;
+ }
+ .notif-relative{
+  position:relative;
+ }
+ .notif-number{
+  position:absolute;
+  top:-4px;
+  right:-6px;
+  background-color:rgb(208, 26, 26);
+  border-radius:20px;
+  color:white;
+  font-size:11px;
+  padding-right:4px;
+  padding-left:4px;
+  border-color:white;
+  border-style:solid;
+ }
+ 

@@ -1,0 +1,198 @@
+  body{
+    background-color: rgb(33, 30, 30);
+  }
+   .subscribe-button {
+    background-color: rgb(222, 4, 4);
+    color: white;
+    border: none;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 2px;
+    cursor:pointer;
+    margin-right: 8px;
+    transition:background-color 1s, 
+    color 1s;
+    vertical-align:top;
+   } 
+   .subscribe-button:hover{
+    opacity:0.7;
+  }  
+  .subscribe-button:active{
+    opacity:0.4;
+  }
+
+   .join-button{
+    background-color: white;
+    border-color:rgb(12, 174, 224);
+    border-style: solid;
+    border-width:1px;
+    color: rgb(12, 174, 224);
+    padding-left:15.333px;
+    padding-right:15.333px;
+    padding-top:9.333px;
+    padding-bottom:9.333px;
+    border-radius:2px;
+    cursor:pointer;
+    transition:background-color 0.15s, 
+    color 0.15;
+    vertical-align:top;
+   }
+
+   .join-button:hover{
+    background-color:rgb(12, 174, 224);
+    color:white;
+   }
+   .join-button:active{
+    opacity:0.7;
+   }
+  
+   .Tweet-button{
+    background-color: rgb(52, 197, 245);
+    color: white;
+    border: none;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:17px;
+    font-weight:bold;
+    font-size:15px;
+    cursor:pointer;
+    margin-left:8px;
+    transition:box-shadow 0.15s;
+    vertical-align:top;
+   }
+
+   .Tweet-button:hover{
+    opacity:0.7;
+    box-shadow:6px 6px 7px rgba(0,0,0,0.15);
+   }
+   .Tweet-button:active{
+    opacity:0.4;
+   }
+
+   .Stretch-button{
+    background-color:green;
+    color:white;
+    font-weight:bold;
+    border:none;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:20px;
+    margin-bottom:5px;
+    cursor:pointer;
+    transition:
+    padding-top 0.5s,
+    padding-bottom 0.5s,
+    padding-right 0.5s,
+    padding-left 0.5s;  
+    
+   }
+   .Stretch-button:hover{
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:15px;
+    padding-bottom:15px;
+   }
+
+   .Shadow-Stretch{
+    background-color:green;
+    color:white;
+    border:none;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:15px;
+    cursor:pointer;
+    box-shadow:7px 7px 4px rgba(0,0,0,0.15);
+    transition:
+    padding-top 0.5s,
+    padding-bottom 0.5s,
+    padding-right 0.5s,
+    padding-left 0.5s;  
+    
+   }
+   .Shadow-Stretch:hover{
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:15px;
+    padding-bottom:15px;
+   }
+   .Shadow-Stretch:active{
+    box-shadow:0 0 0 white;
+    padding-left:14px;
+    padding-right:14px;
+    padding-top:8px;
+    padding-bottom:8px;
+   }
+   .Shadow{
+    background-color:green;
+    color:white;
+    border:none;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:15px;
+    cursor:pointer;
+    box-shadow:7px 7px 4px rgba(0,0,0,0.15);
+   }
+   .Shadow:active{
+    box-shadow:0 0 0 white;
+    padding-left:14px;
+    padding-right:14px;
+    padding-top:8px;
+    padding-bottom:8px;
+   }
+
+   .Stretch{
+    background-color:green;
+    color:white;
+    border:none;
+    font-size:15px;
+    font-weight:bold;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-right:20px;
+    padding-left:20px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:20px;
+    cursor:pointer;
+    transition: padding 0.15s,
+      margin 0.15s;
+   }
+   .Stretch:hover{
+    padding-left:30px;
+    padding-right:30px;
+    margin-right:0px;
+    margin-left:0px;
+   }
+   
+   .back{
+    margin-top:15px;
+    padding-top:7px;
+    padding-bottom:7px;
+    font-size:medium;
+   }
+
+   .a{
+    font-size:medium;
+    margin-left:2px;
+    margin-right:2px;
+   }
+
+   .next{
+    margin-top:15px;
+    padding-top:7px;
+    padding-bottom:7px;
+    font-size:medium;
+   }
+
+   
+  

@@ -1,0 +1,32 @@
+.side-bar{
+  position:fixed;
+  top:55px;
+  left:0;
+  bottom:0px;
+  width:73px;
+  background-color:white;
+}
+
+.content-side-bar{
+  height:74px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:column;
+  cursor:pointer;
+  z-index:2;
+  padding-top:10px;
+}
+.content-side-bar:hover{
+  background-color:gainsboro;
+}
+
+.side-logo{
+  height:24px;
+  margin-bottom:4px;
+}
+.content-side-bar div{
+  font-size:10px;
+  font-family:Roboto,Arial;
+}
+

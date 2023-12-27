@@ -1,0 +1,47 @@
+body{
+  background-color:gainsboro;
+}
+.link-a{
+  color:rgb(0,113,133)
+}
+.link-a:hover{
+  color:red;
+}
+.name{
+  font-size: 24px;
+   font-weight:bold;
+}
+.price{
+   color:rgb(44, 118, 44);
+   font-weight:bold;
+  }
+.add-button{
+   background: rgb(227, 202, 62);
+   border:none;
+   height:30px;
+   width: 110px;
+   border-radius:15px;
+   cursor:pointer;
+   margin-right: 1px;
+}
+.add-button:hover{
+  background-color:rgb(200, 157, 0);
+}
+.add-button:active{
+  opacity: 0.5;
+}
+
+.buy-button{
+  background-color: rgb(255, 164, 28);
+   border:none;
+   height: 30px;
+   width: 110px;
+   border-radius:15px;
+   cursor:pointer;
+}
+.buy-button:hover{
+  background-color: rgb(250, 137, 0);
+}
+.buy-button:active{
+  opacity:0.5;
+}
